@@ -1,0 +1,107 @@
+
+.container{
+    border: azure 2px;
+    width: 700px;
+    display: block;
+    margin-top: 20px;
+    
+}
+body{
+    background-color: rgb(236, 217, 193);
+    display: flex;
+    justify-content: center;
+    
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+.naslov{position: absolute;
+    background-color: rgba(179, 114, 30, 0.7);
+    
+}
+.glava{
+    color: azure;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 32px;
+}
+.navbar{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+    padding: 16px;
+    background-color: rgb(179, 114, 30);
+    
+}
+.tijelo{
+    display: block;
+    margin: auto;
+    text-align: justify;
+    font-size: larger;
+    background-color:rgba(179, 114, 30, 0.3);
+    padding: 40px;
+}
+.ime {
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+    background-color: rgba(179, 114, 30, 0.3);
+}
+.kontakt{
+    font-size: x-small;
+}
+.info{
+    background-color: rgba(179, 114, 30);
+    padding-left: 40px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+}
+.ime2{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(179, 114, 30, 0.3);
+}
+.moje{
+    display: block;
+    margin: auto;
+    text-align: right;
+    font-size: medium;
+    background-color:rgba(179, 114, 30, 0.3);
+    padding: 40px;
+}
+.slija {
+    width: 100%; /* prilagodba širini stranice */
+    max-width: 2000px; /* maksimalna širina slike */
+    height: auto; /* zadržavanje proporcija */
+    display: flex;
+    margin: 0 auto; /* centriranje */
+    justify-content: center;
+    align-items: center;
+}
+.videoo{
+    height: 500px;
+    width: auto;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slica {
+    width: 100%; /* prilagodba širini stranice */
+    max-width: 500px; /* maksimalna širina slike */
+    height: auto; /* zadržavanje proporcija */
+    display: flex;
+    margin: 0 auto; /* centriranje */
+    justify-content: center;
+    align-items: center;
+}
